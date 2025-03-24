@@ -63,16 +63,14 @@ a {
 }
 
 /*Página das redes sociais*/
-
 .redes{
     text-align: center;
 }
 .insta, .whats, .face{
     background-color: rgba(255, 255, 255, 0.199);
     color: black;
-    padding: 3px;
-    padding-right: 3px;
-    border-radius: 20px;
+    padding: 12px 30px;
+    border-radius: 50px;
     text-align: center;
     align-items: center;
     display:inline-flex;
@@ -80,7 +78,7 @@ a {
     margin: 20px auto;
 }
 .insta > p, .whats > p, .face > p{
-    margin-left: 3px;
+    margin-left: 10px;
 }
 .insta > img, .whats > img, .face > img{
     background-color: white;
