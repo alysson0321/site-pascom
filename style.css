@@ -23,7 +23,6 @@ body {
     display: flex;
     align-items: center; 
     justify-content: space-between;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .barra-navegação {
@@ -43,7 +42,7 @@ body {
 }
 
 .barra-navegação li:hover{
-    background-color: rgb(15, 8, 2);
+    background-color: #1b568067;
     border-radius: 10px;
 }
 .titulo-principal{
