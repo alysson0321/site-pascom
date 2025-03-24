@@ -19,6 +19,8 @@ body {
 h1{
     text-align: center;
 }
+ 
+/*header*/
 .topo {
     background-color: #216697;
     padding: 5px;
@@ -46,6 +48,8 @@ h1{
     background-color: #1b568067;
     border-radius: 10px;
 }
+
+/*Texto principal*/
 .titulo-principal{
     text-align: center;
 
@@ -58,3 +62,31 @@ a {
     color: inherit;
 }
 
+/*Página das redes sociais*/
+
+.redes{
+    text-align: center;
+}
+.insta, .whats, .face{
+    background-color: rgba(255, 255, 255, 0.199);
+    color: black;
+    padding: 3px;
+    padding-right: 3px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    display:inline-flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.insta > p, .whats > p, .face > p{
+    margin-left: 3px;
+}
+.insta > img, .whats > img, .face > img{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.insta > img:hover, .whats > img:hover, .face > img:hover{
+    background-color: rgba(255, 255, 255, 0.137);
+}
