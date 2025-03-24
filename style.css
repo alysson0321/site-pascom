@@ -16,7 +16,9 @@ body {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+h1{
+    text-align: center;
+}
 .topo {
     background-color: #216697;
     padding: 5px;
@@ -40,7 +42,6 @@ body {
     background-color: #1b5680;
     border-radius: 10px;
 }
-
 .barra-navegação li:hover{
     background-color: #1b568067;
     border-radius: 10px;
@@ -52,3 +53,8 @@ body {
 .subtitulo{
     font-style: italic;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
