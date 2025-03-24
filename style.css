@@ -14,6 +14,7 @@ body {
     margin: 0;
     background-color: #27598e;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .topo {
@@ -37,6 +38,8 @@ body {
     font-size: 18px;
     cursor: pointer;
     padding: 10px;
+    background-color: #1b5680;
+    border-radius: 10px;
 }
 
 .barra-navegação li:hover{
