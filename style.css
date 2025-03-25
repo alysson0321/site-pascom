@@ -1,4 +1,5 @@
 @media (max-width: 768px) {
+    /*Header*/
     .topo {
         flex-direction: column;
         padding: 15px;
@@ -9,6 +10,9 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    /*Página das pastorais*/
+
     .info-pastorais > img {
         border-radius: 50px;
         width: 200px !important;
@@ -37,7 +41,47 @@
         justify-content: center !important;
         flex-wrap: wrap !important;
     }
+
+    /*Página das midias*/
+    
+    .imagem-container {
+        display: flex;
+        align-items: center !important;
+        position: absolute;
+        justify-content: space-between;
+        margin-top: 20px;
+        background-color: #216697;
+        display: inline-flex;
+        padding: 10px;
+        border-radius: 30px;
+    }
+    .imagem-container img{
+        border-radius: 30px;
+        width: 280px !important; 
+    }
+    .descricao {
+        flex: 1;
+        text-align: left;
+    }
+    .descricao h2{
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-left: 10px;
+    }
+    .descricao p{
+        font-size: 13px;
+        margin-left: 10px;
+        color: #E5B432;
+    }
+    .descricao a{
+        margin-left: 10px;
+        font-size: 15px;
+        text-decoration: underline;
+    }
 }
+
+/*CSS Principal*/
+
 body {
     margin: 0;
     background-color: #27598e;
@@ -181,4 +225,42 @@ a {
     border-radius: 50px;
     width: 250px;
     height: 250px;
+}
+
+/*Página das midias*/
+
+.imagem-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #216697;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+.imagem-container img{
+    border-radius: 30px;
+    width:400px;
+}
+.descricao {
+    flex: 1;
+    text-align: left;
+}
+.descricao h2{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.descricao p{
+    margin-left: 10px;
+    color: #E5B432;
+}
+.descricao a{
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.descricao a:hover {
+    text-decoration: underline;
+    color: rgb(39, 1, 39);
 }
