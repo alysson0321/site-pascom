@@ -47,7 +47,6 @@
     .imagem-container {
         display: flex;
         align-items: center !important;
-        position: absolute;
         justify-content: space-between;
         margin-top: 20px;
         background-color: #216697;
@@ -186,10 +185,10 @@ a {
     align-items: center;
     display: flex;
     display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 15px;
-        justify-content: center;
-        flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .info-pastorais{
     background-color: #2474ad60;
@@ -239,6 +238,7 @@ a {
     padding: 10px;
     border-radius: 30px;
     margin-left: 15px;
+    margin-right: 15px;
 }
 .imagem-container img{
     border-radius: 30px;
@@ -262,5 +262,5 @@ a {
 }
 .descricao a:hover {
     text-decoration: underline;
-    color: rgb(39, 1, 39);
+    color: rgb(29, 1, 29);
 }
