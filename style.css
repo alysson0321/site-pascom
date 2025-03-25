@@ -20,7 +20,7 @@ h1{
     text-align: center;
 }
  
-/*header*/
+/*Header*/
 .topo {
     background-color: #216697;
     padding: 5px;
@@ -47,6 +47,20 @@ h1{
 .barra-navegação li:hover{
     background-color: #1b568067;
     border-radius: 10px;
+}
+
+/*Footer*/
+.rodape{
+    margin-left: 10px;
+    margin: 0;
+    text-align: left;
+    background-color: #1b568067;
+    padding: 15px;
+    bottom: 0;
+    font-size: 8px;
+}
+.rodape > h2, p{
+    margin: 0;
 }
 
 /*Texto principal*/
