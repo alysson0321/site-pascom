@@ -196,6 +196,8 @@ a {
 }
 .insta > p, .whats > p, .face > p{
     margin-left: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
 .insta > img, .whats > img, .face > img{
     background-color: white;
