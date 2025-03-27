@@ -29,7 +29,6 @@
         padding-right: 5px;
         margin-left: 5px;
         font-size: 10px;
-        width: calc(50% - 20px) !important;
         max-width: 200px;
         text-align: center;
         
@@ -214,7 +213,7 @@ a {
     align-items: center;
     display: flex;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     justify-content: center;
     flex-wrap: wrap;
