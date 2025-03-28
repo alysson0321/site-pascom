@@ -8,11 +8,34 @@
     
     .topo img{
         margin-left: 0px;
+        margin: auto !important;
     }
     .barra-navegacao {
         margin-top: 15px;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    /*Página inicial*/
+    .titulo-principal img{
+        height: 200px;
+    }
+    .titulo-principal{
+        text-wrap: wrap;
+    }
+    .bio{
+        margin-top: 6px;
+    }
+    .bio > h2{
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .bio > p{
+        text-align: justify !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        padding-bottom: 8px !important;
+        
     }
 
     /*Página das pastorais*/
@@ -147,6 +170,34 @@ h1{
     border-radius: 10px;
 }
 
+/*Página inicial*/
+.titulo-principal{
+    text-align: center;
+
+}
+.subtitulo{
+    font-style: italic;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.bio{
+    background-color: #2474ad60;
+    padding-bottom: 3px;
+    display: inline-block;
+}
+.bio h2{
+    margin-bottom: 20px;
+}
+.bio p {
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
+    color: #dcdcdc;
+}
+
 /*Footer*/
 .rodape{
     margin-left: 10px;
@@ -165,26 +216,14 @@ h1{
     color: #E5B432;
 }
 
-/*Texto principal*/
-.titulo-principal{
-    text-align: center;
-
-}
-.subtitulo{
-    font-style: italic;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 /*Página das redes sociais*/
 .redes{
     text-align: center;
+    color: white;
 }
 .insta, .whats, .face{
     background-color: rgba(255, 255, 255, 0.199);
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 30px;
     border-radius: 50px;
     text-align: center;
