@@ -57,7 +57,7 @@
         
     }
     .info-pastorais > p {
-        font-size: 11px;
+        font-size: 12px;
     }
     .pastorais{
         display: grid !important;
@@ -124,6 +124,10 @@
 
 } 
     
+@font-face {
+    font-family: 'noto-serif';
+    src: url(fontes/NotoSerif_Condensed-Bold.ttf);
+}
 
 
 /*CSS Principal*/
@@ -135,6 +139,10 @@ body {
 }
 h1{
     text-align: center;
+}
+h2{
+    font-family: 'noto-serif';
+    font-weight: bolder;
 }
  
 /*Header*/
@@ -329,4 +337,23 @@ a {
 .descricao a:hover {
     text-decoration: underline;
     color: rgb(29, 1, 29);
+}
+
+/*Página dos horários*/
+.horarios-missas{
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.089);
+    padding: 10px;
+}
+.horarios li{
+    color: #f7c02b;
+}
+.horários > h3{
+    color: #c4c3c3;
+}
+.missas > h2{
+    text-align: center;
+    justify-items: center;
+    display: block;
+    margin: 0 auto;
 }
