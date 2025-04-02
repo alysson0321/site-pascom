@@ -172,6 +172,7 @@ h2{
     padding: 10px;
     background-color: #1b5680;
     border-radius: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.432);
 }
 .barra-navegação li:hover{
     background-color: #1b568067;
@@ -208,20 +209,21 @@ a {
 
 /*Footer*/
 .rodape{
-    margin-left: 10px;
     margin: 0;
     margin-top: 100%;
     text-align: left;
-    background-color: rgb(30 58 138);
+    background-color: rgba(30, 59, 138, 0.644);
     padding: 15px;
     bottom: 0;
-    font-size: 8px;
+    font-size: 12px;
 }
 .rodape > h2, p{
     margin: 0;
+    text-align: center;
 }
 .rodape > p{
     color: #E5B432;
+    font-size: 9px;
 }
 
 /*Página das redes sociais*/
@@ -320,13 +322,14 @@ a {
 }
 .descricao {
     flex: 1;
-    text-align: left;
+    text-align: left !important;
 }
 .descricao h2{
     margin-bottom: 0;
     margin-left: 10px;
 }
 .descricao p{
+    text-align: left;
     margin-left: 10px;
     color: #E5B432;
 }
@@ -346,14 +349,16 @@ a {
     padding: 10px;
 }
 .horarios li{
-    color: #f7c02b;
+    color: #e6c467;
 }
 .horários > h3{
-    color: #c4c3c3;
+    color: #DDDDDD;
+    font-weight:bolder ;
 }
 .missas > h2{
     text-align: center;
     justify-items: center;
     display: block;
     margin: 0 auto;
+    font-style: italic;
 }
