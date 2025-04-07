@@ -133,7 +133,7 @@
 /*CSS Principal*/
 body {
     margin: 0;
-    background-color: #27598e;
+    background-color: #2c1404;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -147,7 +147,7 @@ h2{
  
 /*Header*/
 .topo {
-    background-color: #216697;
+    background-color: #1c0c04;
     padding: 5px;
     display: flex;
     align-items: center; 
@@ -170,12 +170,12 @@ h2{
     font-size: 18px;
     cursor: pointer;
     padding: 10px;
-    background-color: #1b5680;
+    background-color: #381a05;
     border-radius: 10px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.432);
 }
 .barra-navegação li:hover{
-    background-color: #1b568067;
+    background-color: #33170467;
     border-radius: 10px;
 }
 
@@ -192,7 +192,7 @@ a {
     color: inherit;
 }
 .bio{
-    background-color: #2474ad60;
+    background-color: #341d0d81;
     padding-bottom: 3px;
     display: inline-block;
 }
@@ -204,7 +204,7 @@ a {
     margin: auto;
     text-align: justify;
     padding: 10px;
-    color: #dcdcdc;
+    color: #ada195;
 }
 
 /*Footer*/
@@ -212,7 +212,7 @@ a {
     margin: 0;
     margin-top: 100%;
     text-align: left;
-    background-color: rgba(30, 59, 138, 0.644);
+    background-color: #1c0c04;
     padding: 15px;
     bottom: 0;
     font-size: 12px;
@@ -268,7 +268,7 @@ a {
     flex-wrap: wrap;
 }
 .info-pastorais{
-    background-color: #2474ad60;
+    background-color: #341d0d81;
     display: inline-block;
     padding: 10px;
     border-radius: 50px;
@@ -290,11 +290,11 @@ a {
     color: white;
     cursor: pointer;
     padding: 3px;
-    background-color: #1b5680;
+    background-color: #4c3424;
     border-radius: 10px;
 }
 .info-pastorais > p:hover{
-    background-color: #1b568067;
+    background-color: #3a2314;
     border-radius: 10px;
 }
 .info-pastorais > img{
@@ -309,7 +309,7 @@ a {
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-    background-color: #216697;
+    background-color: #341d0d;
     display: inline-flex;
     padding: 10px;
     border-radius: 30px;
@@ -331,25 +331,26 @@ a {
 .descricao p{
     text-align: left;
     margin-left: 10px;
-    color: #E5B432;
+    color: #ada195;
 }
 .descricao a{
     margin-left: 10px;
     text-decoration: underline;
+    color: #8d5f42;
 }
 .descricao a:hover {
     text-decoration: underline;
-    color: rgb(29, 1, 29);
+    color: rgb(68, 9, 68);
 }
 
 /*Página dos horários*/
 .horarios-missas{
     list-style: none;
-    background-color: rgba(255, 255, 255, 0.089);
+    background-color: #341d0d81;
     padding: 10px;
 }
 .horarios li{
-    color: #e6c467;
+    color: #ada195;
 }
 .horários > h3{
     color: #DDDDDD;
