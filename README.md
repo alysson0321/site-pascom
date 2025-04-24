@@ -29,7 +29,7 @@ Este é um site desenvolvido para a Pastoral da Comunicação (PASCOM) da Paróq
 ## 🖼️ Visual do Site
 
 ### 📍 Página Inicial
-![Página Inicial](./assets/pag-inicial.png)
+![Página Inicial](./assets/pag-inicial.png.png)
 
 ### 🙏 Página de Pastorais
 ![Página de Pastorais](./assets/pag-pastorais.png)
